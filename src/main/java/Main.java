@@ -14,8 +14,10 @@ public class Main
         ApplicationContext context = new AnnotationConfigApplicationContext(BeanFactory.class);
         Printer printerOne = (Printer) context.getBean("printerOne");
         PrinterTwo printerTwo = (PrinterTwo) context.getBean("printerTwo");
+        PrinterThree printerThree = (PrinterThree) context.getBean("printerThree");
         printerOne.print();
         printerTwo.print();
         printerTwo.say();
+        printerThree.print();
     }
 }

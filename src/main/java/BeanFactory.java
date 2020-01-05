@@ -22,6 +22,11 @@ public class BeanFactory
     {
         return new PrinterTwo();
     }
+    @Bean("printerThree")
+    public PrinterThree printerThree()
+    {
+        return new PrinterThree();
+    }
     @Bean("aop")
     public PrinterAOP printerAop()
     {
