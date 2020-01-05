@@ -1,6 +1,6 @@
 PrinterOne.class
-BeanFactory.class
 Main.class
+PrinterAOP.class
+BeanFactory.class
 PrinterTwo.class
 Printer.class
-PrinterAOP.class
