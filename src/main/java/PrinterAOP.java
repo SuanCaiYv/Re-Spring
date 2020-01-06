@@ -79,7 +79,7 @@ public class PrinterAOP
     @Before(value = "cut4(txt)", argNames = "txt")
     public void before4(String txt)
     {
-        System.out.println("四号打印机即将开始打印如下内容: "+txt+"...");
+        System.out.println("四号打印机即将开始打印如下内容: "+txt);
     }
 
     /**
@@ -105,4 +105,6 @@ public class PrinterAOP
         }
         return pjp;
     }
+    @DeclareParents(value = "PrinterFive", defaultImpl = NewFuncImpl.class)
+    public static NewFunc newFunc;
 }

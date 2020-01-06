@@ -1,4 +1,3 @@
-import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -8,8 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class Main
 {
-    @Test
-    public void main()
+    public static void main(String[] ars)
     {
         ApplicationContext context = new AnnotationConfigApplicationContext(BeanFactory.class);
         Printer printerOne = (Printer) context.getBean("printerOne");
@@ -26,5 +24,10 @@ public class Main
         PrinterFour printerFour = (PrinterFour) context.getBean("printerFour");
         printerFour.print("我是文本");
         printerFour.say("我是话");
+        System.out.println("#######################");
+        PrinterFive printerFive = (PrinterFive) context.getBean("printerFive");
+        Object[] args = printerFive.print();
+        NewFunc newFunc = (NewFunc) printerFive;
+        newFunc.newMethod(args);
     }
 }
