@@ -3,11 +3,7 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="PrinterOne" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/PrinterOne.java</file>
-          <file>file://$MODULE_DIR$/src/main/java/PrinterTwo.java</file>
-        </fileset>
-        <fileset id="fileset2" name="BeanFactory" removed="false">
+        <fileset id="fileset" name="BeanFactory" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/BeanFactory.java</file>
         </fileset>
       </configuration>
