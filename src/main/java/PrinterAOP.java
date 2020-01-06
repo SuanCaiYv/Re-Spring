@@ -105,6 +105,10 @@ public class PrinterAOP
         }
         return pjp;
     }
+
+    /**
+     * 扩展类方法, 参数分别为: 目标类, 默认实现类(调用委托类), 以及一个静态变量, 指出接口是谁
+     */
     @DeclareParents(value = "PrinterFive", defaultImpl = NewFuncImpl.class)
     public static NewFunc newFunc;
 }
