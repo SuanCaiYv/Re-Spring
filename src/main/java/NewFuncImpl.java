@@ -9,6 +9,6 @@ public class NewFuncImpl implements NewFunc
     {
         int a = (int) args[0];
         int b = (int) args[1];
-        System.out.println("a+b="+(a+b));
+        System.out.println(a+"+"+b+"="+(a+b));
     }
 }
