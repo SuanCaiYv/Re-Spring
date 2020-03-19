@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="NBMindMap" name="NB Mind Map">
+      <configuration>
+        <copyParentColorInfoInNew>true</copyParentColorInfoInNew>
+        <unfoldCollapsedTopicInDrop>true</unfoldCollapsedTopicInDrop>
+        <useInsideBrowser>false</useInsideBrowser>
+        <makeRelativePath>true</makeRelativePath>
+        <disableAutocreateProjectKnowledgeFolder>true</disableAutocreateProjectKnowledgeFolder>
+        <useProjectBaseFolderAsRoot>false</useProjectBaseFolderAsRoot>
+        <trimTopicText>false</trimTopicText>
+      </configuration>
+    </facet>
+  </component>
+</module>
